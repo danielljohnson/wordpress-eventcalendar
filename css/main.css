@@ -1,0 +1,19 @@
+/* Event Calendar Styles */
+
+#event_calendar_wrap { border: 5px solid #d0d0d0; background: #ffffff; margin: 0; width: 100%; padding: 5px; position: relative; }
+
+table#event_calendar th { color: #666; font: 10px arial; padding: 0 0 5px; border: 1px solid #fff; text-align: center; }
+table#event_calendar th.header { font: bold 13px arial; color: #5e5e5e; padding: 5px 0 5px; text-align: center; }
+
+table#event_calendar td { padding: 7px 0 5px; width: 25px; font: bold 11px arial; border: 1px solid #fff; text-align: center; }
+
+table#event_calendar .day { color: #aaaaaa; background-color: #eeeeee; }
+table#event_calendar .blank { background-color: white; }
+table#event_calendar .today { color: #eeeeee; background-color: #aaaaaa; }
+table#event_calendar .event { background-color: #77b772; }
+table#event_calendar .event a { background-color: #77b772; color: #eeeeee; }
+
+table#event_calendar a#left_arrow { position: absolute; left: 15px; top: 10px; color: #666; text-decoration: none; }
+table#event_calendar a#right_arrow { position: absolute; right: 15px; top: 10px; color: #666; text-decoration: none; }
+
+#event-meta .error { color: red; }
