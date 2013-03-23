@@ -6,18 +6,18 @@ define('EVENTCALENDAR_DEBUG_STRICT', false);
 
 /* IF EVENTCALENDAR_DEBUG is set to true, Wordpress Error Reporting will be enabled. */
 if (EVENTCALENDAR_DEBUG) {
-	if (!defined('WP_DEBUG')) {
-		define('WP_DEBUG', true);
-	}
-	
-	if (!defined('WP_DEBUG')) {
-		define('SCRIPT_DEBUG', true);
-	}
-	
-	if (EVENTCALENDAR_DEBUG_STRICT) {
-		error_reporting(E_ALL);
-	 	ini_set("display_errors", 1);
-	}
+    if (!defined('WP_DEBUG')) {
+        define('WP_DEBUG', true);
+    }
+    
+    if (!defined('WP_DEBUG')) {
+        define('SCRIPT_DEBUG', true);
+    }
+    
+    if (EVENTCALENDAR_DEBUG_STRICT) {
+        error_reporting(E_ALL);
+        ini_set("display_errors", 1);
+    }
 }
 
 /* Define where Wordpress should clear it's URL writing cache.
